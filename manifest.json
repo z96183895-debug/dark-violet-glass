@@ -34,6 +34,13 @@
             "l": 10
           }
         }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/dark.png",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#08070C"
+        }
       }
     }
   }
