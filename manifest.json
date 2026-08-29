@@ -1,18 +1,40 @@
 {
+  "manifest_version": 3,
   "name": "Dark Violet Glass",
-  "description": "A dark translucent black and subtle violet Opera GX theme.",
-  "developer": "MrWhiteHatModding",
-  "version": "1.0.0",
-  "manifest_version": 1,
-  "theme": {
-    "colors": {
-      "accent": "#9B6CFF",
-      "background": "#08070C",
-      "foreground": "#E8E3F0",
-      "secondary_background": "#0D0914",
-      "tertiary_background": "#100B18",
-      "hover": "#171020",
-      "active": "#211531"
+  "description": "A dark black-glass Opera GX theme with a subtle violet accent.",
+  "version": "1.0",
+  "developer": {
+    "name": "MRWHITEAMONGUSVR"
+  },
+  "mod": {
+    "schema_version": 1,
+    "payload": {
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 260,
+            "s": 55,
+            "l": 65
+          },
+          "gx_secondary_base": {
+            "h": 270,
+            "s": 35,
+            "l": 6
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 260,
+            "s": 45,
+            "l": 55
+          },
+          "gx_secondary_base": {
+            "h": 270,
+            "s": 20,
+            "l": 10
+          }
+        }
+      }
     }
   }
 }
